@@ -6,23 +6,24 @@ body {
 }
 
 .navbar {
-  background-color: #333;
-  padding: 10px 20px;
-  color: white;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .navbar a {
-  color: white;
+  color: #333;
   text-decoration: none;
-  margin: 0 15px;
+  margin-right: 20px;
   font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  color: #007bff;
 }
 
 .container {
@@ -62,11 +63,4 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
-}
-
-#message {
-  margin-top: 20px;
-  font-weight: bold;
-  color: green;
-}
+  background-color: #0056
